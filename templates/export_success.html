@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Comic Created - ComicCraft</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+  <header class="hero small">
+    <h1 class="logo">COMIC<span>CRAFT</span></h1>
+  </header>
+  <main class="container">
+    <div class="card center">
+      <h2>Your Comic Has Been Successfully Created!</h2>
+      <p>Your PDF is ready. Save it, print it or share it.</p>
+      <div class="actions">
+        <a class="btn" href="/static/exports/{{ pdf_name }}" download>Download PDF</a>
+        <a class="btn secondary" href="/">Create Another Comic</a>
+      </div>
+      <p class="hint">File: {{ pdf_name }}</p>
+    </div>
+  </main>
+</body>
+</html>

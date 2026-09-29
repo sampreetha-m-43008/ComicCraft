@@ -1,0 +1,7 @@
+# OPTIONAL: only for running Stable Diffusion locally (IMAGE_BACKEND=local).
+# Large download (several GB). Install AFTER requirements.txt:  pip install -r requirements-ai.txt
+torch
+diffusers>=0.30
+transformers>=4.40
+accelerate>=0.30
+safetensors
